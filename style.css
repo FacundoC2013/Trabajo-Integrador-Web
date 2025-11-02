@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.arriba1 {
+  background: #222;
+  color: white;
+  padding: 5px 10px;
+}
+
+.menu1 {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.arriba2 {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+}
+
+.menu2 {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.busca {
+  display: flex;
+  gap: 5px;
+}
+
+.menuchico {
+  background: #444;
+  color: white;
+  padding: 8px 10px;
+}
+
+.menuchico ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.grande {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.destacado {
+  width: 800px;
+  height: 400px;
+  background: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.destacado img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 10px;
+}
+
+.izq, .der {
+  background: #555;
+  color: white;
+  border: none;
+  font-size: 24px;
+  width: 40px;
+  height: 60px;
+}
+
+.chicos {
+  display: flex;
+  gap: 10px;
+}
+
+.mini {
+  width: 250px;
+  height: 150px;
+  background: #bbb;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+}
+
+.mini img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.abajo {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
