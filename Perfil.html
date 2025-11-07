@@ -3,211 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Comentarios ATREUS</title>
     
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(180deg, #1b2838, #171a21);
-            color: #e0e0e0; 
-            
-        }
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(180deg, #1b2838, #171a21);
-            color: #e0e0e0; 
-            padding: 20px;
-        }
-
-        h2 {
-            color: #fff;
-            text-align: center;
-            letter-spacing: 1px;
-            margin: 30px 0 15px;
-            transition: 0.3s;
-        }
-
-        h2:hover {
-            color: #66c0f4;
-            text-shadow: 0 0 10px #66c0f4;
-            transform: scale(1.03);
-        }
-
-        .seccion-comentarios {
-            max-width: 700px;
-            margin: auto;
-        }
-
-        .comentario {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 15px;
-            background: #2a2a2a; 
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.3);
-        }
-
-        .avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            margin-right: 15px;
-            background-color: #e0e0e0;
-            object-fit: cover;
-            flex-shrink: 0;
-        }
-
-        .avatar-letra {
-            background-color: #9b59b6;
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
     
-
-        .contenido {
-            flex-grow: 1;
-            overflow: hidden;
-            word-break: break-word;
-        }
-
-        .header {
-            display: flex;
-            align-items: baseline;
-            margin-bottom: 5px;
-        }
-
-        .usuario {
-            font-size: 15px;
-            font-weight: 700;
-            color: #66c0f4; 
-            margin-right: 10px;
-        }
-
-        .tiempo {
-            font-size: 13px;
-            color: #a0a0a0; 
-        }
-
-        .texto {
-            font-size: 14px;
-            color: #e0e0e0; 
-            margin: 0;
-            line-height: 1.5;
-        }
-        
-
-        h2 {
-            color: #fff;
-            text-align: center;
-            letter-spacing: 1px;
-            margin: 30px 0 15px;
-            transition: 0.3s;
-        }
-
-        h2:hover {
-            color: #66c0f4;
-            text-shadow: 0 0 10px #66c0f4;
-            transform: scale(1.03);
-        }
-
-        .arriba1 {
-            background: #222;
-            color: white;
-            padding: 5px 10px;
-        }
-
-        .menu1 {
-            list-style: none;
-            display: flex;
-            gap: 15px;
-            margin: 0;
-            padding: 0;
-        }
-
-        .arriba2 {
-            background: #333;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 10px;
-        }
-
-        .menu2 {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-            margin: 0;
-            padding: 0;
-        }
-
-        .menuchico {
-            background: #444;
-            color: white;
-            padding: 8px 10px;
-        }
-
-        .menuchico ul {
-            list-style: none;
-            display: flex;
-            gap: 15px;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .menu1 a,
-        .menu2 a,
-        .menuchico a {
-            color: white;
-            text-decoration: none;
-            transition: color 0.3s 
-        }
-
-        .menu2 a:hover,
-        .menuchico a:hover {
-            color: #66c0f4;
-            cursor: pointer;
-            transition: color 0.3s 
-        }
-        
-        .menu2 a {
-            padding: 5px 10px;
-            transition: color 0.3s ease, border-bottom 0.3s 
-        }
-
-        .menu2 a:hover {
-            color: #66c0f4;
-            border-bottom: 2px solid #66c0f4;
-        }
-
-        .menu2 a.activo {
-            color: #66c0f4;
-            border-bottom: 2px solid #66c0f4;
-        }
-    </style>
 </head>
 <body>
     
   <header class="arriba1">
     <ul class="menu1">
-      <li>PENSAR EN NOMBRE</li>
+      <li>ATREUSGAMES</li>
       <li></li>
     </ul>
   </header>
 
   <nav class="arriba2">
   <ul class="menu2">
-    <li><a href="tienda.html" class="activo">TIENDA</a></li>
+    <li><a href="Inicio.html" >TIENDA</a></li>
     <li><a href="biblioteca.html">BIBLIOTECA</a></li>
-    <li><a href="perfil.html">PERFIL</a></li>
+    <li class="activo"><a href="perfil.html">PERFIL</a></li>
   </ul>
 </nav>
     
@@ -218,14 +32,16 @@
     <ul>
       <li></li>
       <li><a href="recomendaciones.html">Recomendaciones </a></li>
-      <li>Contacto</li>
+      <li>Contacto <a href="form.html"></a></li>
       
     </ul>
   </div>
+
 <div id="perfil">
-    <img src="https://i.pinimg.com/736x/49/d7/f6/49d7f6c4e12f250bb242fcd6fb0c05cb.jpg" alt="Patogamer">
+    <img class="imagenPerfil" src="https://i.pinimg.com/736x/49/d7/f6/49d7f6c4e12f250bb242fcd6fb0c05cb.jpg" alt="Patogamer">
     <div id="textoperfil">
-        <h4>Perfil de PatoGamer77</h4>
+        <h3><strong>PERFIL DE PATOGAMER77</strong></h3>
+        <h4>Ultima conexión: hace 3 horas.</h4>
     </div>
 
 

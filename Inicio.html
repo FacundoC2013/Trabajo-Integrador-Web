@@ -10,7 +10,7 @@
 <body>
     <header class="arriba1">
         <ul class="menu1">
-            <li>PENSAR EN NOMBRE</li>
+            <li>ATREUSGAMES</li>
             <li></li>
         </ul>
     </header>
@@ -34,39 +34,69 @@
     <main class="principal">
         <h2 style="color: azure;">¡ULTIMAS NOVEDADES!</h2>
         <div class="grande">
-            <button class="izq">⟨</button>
+            <button id="atras" class="izq">⟨</button>
             <div class="destacado">
-                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202203/1520/e6VbPQ56CBzVPgKmWdMMrICz.png" alt="juego grande">
-                <div class="info">
-                    <h3>Dead by Daylight</h3>
-                    <p>Ya disponible</p>
-                </div>
-                <div class="descripcion">
-                    <h4>Descripción:</h4>
-                    <p>Juego multijugador de terror donde un asesino persigue a cuatro supervivientes...</p>
-                    <p>$10.000</p>
-                </div>
-            </div>
-            <button class="der">⟩</button>
+                <img id="imagenGrande" src="https://image.api.playstation.com/vulcan/ap/rnd/202203/1520/e6VbPQ56CBzVPgKmWdMMrICz.png" alt="juego grande">
+         <div class="info">
+            <h3 id="nombreJuego">Dead by Daylight</h3>
+            <p id="estadoJuego">Ya disponible</p>
+    </div>
+    <div class="descripcion">
+         <h4>Descripción:</h4>
+         <p id="descripcionJuego">Juego multijugador de terror donde un asesino persigue a cuatro supervivientes...</p>
+            <p id="precioJuego">$10.000</p>
+    </div>
+</div>
+            <button id="adelante"   class="der">⟩</button>
         </div>
         <div class="chicos">
             <div class="mini">
-                <img src="https://cdn2.unrealengine.com/dead-by-daylight---gameplay---6-1920x1080-0b71c2ea2600.png" alt="juego chico 1">
-                <p>Juego 1</p>
+                <img src="https://i.blogs.es/f796b0/gta-vi-retraso/500_333.jpeg" alt="juego chico 1">
+                <p></p>
             </div>
             <div class="mini">
-                <img src="https://i.guim.co.uk/img/media/abbd059006d8c8af031eda8ba5d1fb539965c0f7/82_0_1218_731/master/1218.png?width=465&dpr=1&s=none&crop=none" alt="juego chico 2">
-                <p>Juego 2</p>
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png" alt="juego chico 2">
+                <p></p>
             </div>
             <div class="mini">
-                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202203/1520/e6VbPQ56CBzVPgKmWdMMrICz.png" alt="juego chico 3">
-                <p>Juego 3</p>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/TLOU_P2_Box_Art_2.png/250px-TLOU_P2_Box_Art_2.png" alt="juego chico 3">
+                <p></p>
             </div>
         </div>
+        <h2 class="titulo2">🕹️JUEGOS MAS JUGADOS POR LA COMUNIDAD</h2>
+<div class="seccion2">
+    
+        <div class="mini2">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/cnne-1364325-counter-strike-2-llegara-en-2023.jpg?c=16x9&q=h_833,w_1480,c_fill" alt="juego chico 1">
+            </div>
+            <div class="mini2">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/CNTWUAMXZRF3BPIYPCNPFHOMJQ.jpg" alt="juego chico 1">
+            </div>
+            <div class="mini2">
+                <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages02/2021/05/28/46B44E35-0E3B-4B4A-B7AA-6BAECF2A9A94/default.jpg" alt="juego chico 1">
+                </div>
+
+</div>
+            <div class="seccion 3">
+                <h2>🎥TRAILERS DE TUS JUEGOS FAVORITOS</h2>
+                <div class="carrusel-videos">
+                    
+            
+                    <video id="video" width="640" height="360" controls src="videos/videoGta.mp4"></video>
+            
+                    
+                </div>
+         </div> 
+
     </main>
     <footer class="abajo">
-        <p>*aca pie de pagina o algo*</p>
+        <p>© 2025 AtreusGames Corporation. Todos los derechos
+                    reservados. Todas las marcas registradas pertenecen a sus
+                    respectivos dueños en Argentina y otros países. Todos los
+                    precios incluyen IVA (donde sea aplicable).</p>
     </footer>
+    <script src="carruselInicio.js"></script>
+    <script src="carruselVideos.js"></script>
 </body>
 
 </html>
