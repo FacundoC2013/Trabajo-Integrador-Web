@@ -1,9 +1,9 @@
 // Array de imágenes
 const imagenes = [
-  "../img/carrousel1.jpg",
-  "../img/carrousel2.jpg",
-  "../img/carrousel3.png",
-  "../img/carrousel4.jpg"
+  "img/carrousel1.jpg",
+  "img/carrousel2.jpg",
+  "img/carrousel3.png",
+  "img/carrousel4.jpg"
 ];
 
 let indice = 0;
