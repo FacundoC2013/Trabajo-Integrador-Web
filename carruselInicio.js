@@ -7,6 +7,13 @@ var juegos = [
     estado: "Ya disponible"
   },
   {
+    imagen: "https://acdn-us.mitiendanube.com/stores/004/491/480/products/diseno-sin-titulo-73-df1e1a11364fa8c2f317223112874820-1024-1024.webp",
+    nombre: "The Witcher 3: Wild Hunt",
+    descripcion: "Un épico RPG de mundo abierto donde encarnás al brujo Geralt de Rivia en busca de su hija adoptiva.",
+    precio: "$20.000",
+    estado: "Recomendado"
+  },
+  {
     imagen: "https://i.blogs.es/f796b0/gta-vi-retraso/500_333.jpeg",
     nombre: "GTA VI",
     descripcion: "La nueva entrega del legendario Grand Theft Auto llega con un mapa enorme y gráficos realistas.",
@@ -21,6 +28,7 @@ var juegos = [
     estado: "Oferta limitada"
   }
 ];
+
 
 var actual = 0;
 
